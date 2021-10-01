@@ -9,7 +9,8 @@ body{
   display: flex;
   flex-wrap: wrap-reverse;
   justify-content: center;
-
+  position: relative;
+  bottom: 440px;
 }
 
 .flex-item-left{
@@ -68,6 +69,10 @@ img{
 }
 
 @media only screen and (max-width: 1199px) {
+
+  .container{
+    top: 0;
+  }
 
   .flex-item-left{
     margin-top: 0;
